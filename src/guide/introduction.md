@@ -2,32 +2,32 @@
 footer: false
 ---
 
-# Introduction {#introduction}
+# Tanıtım {#introduction}
 
-:::info You are reading the documentation for Vue 3!
+:::info Şu anda okuduğunuz dokümantasyon, Vue 3 için!
 
-- Vue 2 support has ended on **Dec 31, 2023**. Learn more about [Vue 2 EOL](https://v2.vuejs.org/eol/).
-- Upgrading from Vue 2? Check out the [Migration Guide](https://v3-migration.vuejs.org/).
+- Vue 2 desteği **31 Aralık 2023** itibarıyla sona ermiştir. [Vue 2 Yaşam Sonu](https://v2.vuejs.org/eol/) hakkında daha fazla bilgi alın.
+- Vue 2'den geçiş yapmak mı istiyorsunuz? [Geçiş Rehberi](https://v3-migration.vuejs.org/)'ne göz atın.
   :::
 
 <style src="@theme/styles/vue-mastery.css"></style>
 <div class="vue-mastery-link">
   <a href="https://www.vuemastery.com/courses/" target="_blank">
     <div class="banner-wrapper">
-      <img class="banner" alt="Vue Mastery banner" width="96px" height="56px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png" />
+      <img class="banner" alt="Vue Mastery afişi" width="96px" height="56px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png" />
     </div>
-    <p class="description">Learn Vue with video tutorials on <span>VueMastery.com</span></p>
+    <p class="description">Vue'yu <span>VueMastery.com</span> üzerinden öğrenim videolarıyla öğrenin.</p>
     <div class="logo-wrapper">
-        <img alt="Vue Mastery Logo" width="25px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vue-mastery-logo.png" />
+        <img alt="Vue Mastery Logosu" width="25px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vue-mastery-logo.png" />
     </div>
   </a>
 </div>
 
-## What is Vue? {#what-is-vue}
+## Vue nedir? {#what-is-vue}
 
-Vue (pronounced /vjuː/, like **view**) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
+Vue, (İngilizcedeki **view** gibi /vjuː/ şeklinde telaffuz edilir) kullanıcı arayüzü oluşturmanıza yardımcı olan bir JavaScript çerçevesidir. Uygulamaları standart HTML, CSS ve JavaScript üzerine inşa eder; bildirimsel, bileşen temelli, basit veya kompleks farketmeksizin üretken bir şekilde kullanıcı arayüzleri oluşturmanıza yardım eden bir programlama modeli sunar.
 
-Here is a minimal example:
+İşte Vue'ya dair küçük bir örnek:
 
 <div class="options-api">
 
