@@ -1,36 +1,36 @@
-# Getting Started {#getting-started}
+# Başlarken {#getting-started}
 
-Welcome to the Vue tutorial!
+Vue öğreticisine hoş geldiniz!
 
-The goal of this tutorial is to quickly give you an experience of what it feels like to work with Vue, right in the browser. It does not aim to be comprehensive, and you don't need to understand everything before moving on. However, after you complete it, make sure to also read the <a target="_blank" href="/guide/introduction.html">Guide</a> which covers each topic in more detail.
+Bu öğreticinin amacı, Vue ile çalışmanın tarayıcıda nasıl hissettirdiğini size hızlı bir şekilde deneyimletmektir. Kapsamlı olmayı amaçlamaz ve ilerlemeden önce her şeyi anlamanız gerekmez. Ancak tamamladıktan sonra, her konuyu daha ayrıntılı bir şekilde ele alan <a target="_blank" href="/guide/introduction.html">Rehber</a>'i de okumayı unutmayın.
 
-## Prerequisites {#prerequisites}
+## Ön Koşullar {#prerequisites}
 
-The tutorial assumes basic familiarity with HTML, CSS and JavaScript. If you are totally new to front-end development, it might not be the best idea to jump right into a framework as your first step - grasp the basics then come back! Prior experience with other frameworks helps, but is not required.
+Bu öğretici, HTML, CSS ve JavaScript ile temel düzeyde bilgi sahibi olduğunuzu varsayar. Eğer tamamen yeni bir ön yüz geliştirmeye başlıyorsanız, ilk adımınız olarak doğrudan bir çerçeve kullanmak belki de en iyi fikir olmayabilir - önce temelleri kavrayın, ardından geri gelin! Diğer çerçevelerle önceki deneyim faydalı olabilir, ancak zorunlu değildir.
 
-## How to Use This Tutorial {#how-to-use-this-tutorial}
+## Bu Öğreticiyi Nasıl Kullanmalısınız? {#how-to-use-this-tutorial}
 
-You can edit the code <span class="wide">on the right</span><span class="narrow">below</span> and see the result update instantly. Each step will introduce a core feature of Vue, and you will be expected to complete the code to get the demo working. If you get stuck, you will have a "Show me!" button that reveals the working code for you. Try not to rely on it too much - you'll learn faster by figuring things out on your own.
+Kodu sağdaki <span class="wide">alan</span><span class="narrow">altında</span> düzenleyebilir ve sonucun anında güncellendiğini görebilirsiniz. Her adım, Vue'un temel bir özelliğini tanıtacak ve demo'yu çalıştırmak için kodu tamamlamanız beklenir. Takılırsanız, size çalışan kodu ortaya çıkaran "Bana Göster!" düğmesine sahip olacaksınız. Ancak bunun üzerine fazla bel bağlamamaya çalışın - kendi başınıza çözümleyerek daha hızlı öğreneceksiniz.
 
-If you are an experienced developer coming from Vue 2 or other frameworks, there are a few settings you can tweak to make the best use of this tutorial. If you are a beginner, it's recommended to go with the defaults.
+Eğer Vue 2 veya diğer çerçevelerden geliyorsanız, bu öğreticiden en iyi şekilde yararlanmak için birkaç ayarı özelleştirebilirsiniz. Eğer bir başlangıç seviyesindeyseniz, varsayılanları kullanmanız önerilir.
 
 <details>
-<summary>Tutorial Setting Details</summary>
+<summary>Öğretici Ayarı Detayları</summary>
 
-- Vue offers two API styles: Options API and Composition API. This tutorial is designed to work for both - you can choose your preferred style using the **API Preference** switches at the top. <a target="_blank" href="/guide/introduction.html#api-styles">Learn more about API styles</a>.
+- Vue, Options -Seçenekler- API -Uygulama Programlama Arayüzü- ve Composition -Kompozisyon- API olmak üzere iki API stili sunar. Bu öğretici, her ikisiyle de çalışacak şekilde tasarlanmıştır - tercih ettiğiniz stili API Tercihi anahtarlarını kullanarak seçebilirsiniz. <a target="_blank" href="/guide/introduction.html#api-styles">API stilleri hakkında daha fazla bilgi edinin</a>.
 
-- You can also switch between SFC-mode or HTML-mode. The former will show code examples in <a target="_blank" href="/guide/introduction.html#single-file-components">Single-File Component</a> (SFC) format, which is what most developers use when they use Vue with a build step. HTML-mode shows usage without a build step.
+- Ayrıca, SFC modu veya HTML modu arasında geçiş yapabilirsiniz. İlk seçenek, <a target="_blank" href="/guide/introduction.html#single-file-components">Tek Dosya Bileşeni</a> (SFC) biçiminde kod örneklerini gösterecek ve bu genellikle geliştiricilerin Vue'u bir derleme adımıyla kullandıkları formattır. HTML modu, derleme adımı olmadan kullanımı gösterir.
 
 <div class="html">
 
 :::tip
-If you're about to use HTML-mode without a build step in your own applications, make sure you either change imports to:
+Eğer kendi uygulamalarınızda derleme adımı olmadan HTML modunu kullanacaksanız, içerikleri şu şekilde değiştirmeniz önemlidir:
 
 ```js
 import { ... } from 'vue/dist/vue.esm-bundler.js'
 ```
 
-inside your scripts or configure your build tool to resolve `vue` accordingly. Sample config for [Vite](https://vitejs.dev/):
+komut dosyası içinde veya yapılandırma aracınızı `vue`'yi buna göre çözmesi için yapılandırın. [Vite](https://vitejs.dev/) için örnek yapılandırma:
 
 ```js
 // vite.config.js
@@ -43,11 +43,11 @@ export default {
 }
 ```
 
-See the respective [section in Tooling guide](/guide/scaling-up/tooling.html#note-on-in-browser-template-compilation) for more information.
+Daha fazla bilgi için ilgili [bölüme bakın](/guide/scaling-up/tooling.html#note-on-in-browser-template-compilation).
 :::
 
 </div>
 
 </details>
 
-Ready? Click "Next" to get started.
+Hazır mısınız? Başlamak için "İleri" düğmesine tıklayın.
